@@ -1,0 +1,10 @@
+img{
+    box-sizing: border-box;
+    border-radius: 14px;
+    width: 240px;
+    height: 220px;
+}
+
+.buttons{
+    display: block;
+}
