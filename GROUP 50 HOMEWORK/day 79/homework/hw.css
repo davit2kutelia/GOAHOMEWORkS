@@ -1,0 +1,14 @@
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate( -50% , 50%);
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 2px solid gray;
+    
+
+
+}
