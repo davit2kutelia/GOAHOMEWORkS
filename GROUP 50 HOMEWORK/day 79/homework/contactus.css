@@ -1,6 +1,6 @@
 body{
     height: 1950px;
-    width: 500px;
+
     overflow-x: hidden;
 }
 
@@ -150,6 +150,7 @@ img {
     top: 1650px;
     left: -20px;
     background-color: rgb(60, 60, 60);
+    width: 100%;
 }
 
 .company-info, .contact-info, .working-hours {
@@ -273,8 +274,8 @@ form{
 
 .company{
     position: relative;
-    left: 479px;
-    bottom: 38px;
+    left: 379px;
+    bottom: 28px;
 }
 
 .name{
@@ -395,6 +396,7 @@ input{
     font-size: 15px;
     width: 1375px;
     border-radius: 10px;
+    width: 100%;
     
 }
 
@@ -449,3 +451,105 @@ input{
     
     
 }
+
+.remaked{
+    background-color: orange;
+     position: relative;
+     top: -55px;
+}
+
+.company{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+ @media (max-width: 1031px) {
+    img {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 438px;
+        top: 18px;
+        box-sizing: border-box;
+        border-radius: 13px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .go {
+        position: absolute;
+        left: 472px;
+    }
+    nav{
+        width: 600px;
+    }
+
+    .call{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        padding: 8px;
+        position: absolute;
+        left: 150px;
+        border: 3px solid sblack;
+        transition-duration: 0.3s;
+        cursor: pointer
+        
+        
+    }
+
+    .idk{
+        position: absolute;
+        left: -320px;
+        top: 0px;
+    }
+
+    .footer{
+        width: 700px;
+    }
+
+    .contactimgs{
+        position: absolute;
+        left: 0px;
+    }
+
+    .young{
+        position: absolute;
+        left: 0px;
+    }
+
+    .idk2{
+        position: relative;
+        right: 150px;
+        bottom: 150px;
+    }
+
+    .title{
+        position: relative;
+        right: 400px;
+    }
+
+    .end{
+        width: 740px;
+    }
+
+
+    form{
+        position: relative;
+        left: 600px;
+    }
+
+    .card{
+        position: relative;
+        left: 500px;
+    }
+
+ }
