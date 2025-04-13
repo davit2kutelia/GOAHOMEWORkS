@@ -47,3 +47,27 @@ body {
     top: 580px;
     cursor: pointer;
 }
+
+
+.p1{
+    color: rgb(255, 0, 0);
+    width: 340px;
+    height: 50px;
+    position: absolute;
+    left: 450px;
+    top: 40px;
+    
+}
+
+
+.p2{
+    color: rgb(255, 0, 0);
+    width: 340px;
+    height: 50px;
+    position: absolute;
+    left: 865px;
+    top: 40px;
+    
+}
+
+
