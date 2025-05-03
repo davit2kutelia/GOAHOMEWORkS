@@ -1,0 +1,13 @@
+body{
+    height: 200vh;
+}
+
+
+footer{
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: max-content;
+}
