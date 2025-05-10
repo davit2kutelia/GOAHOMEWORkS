@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+
 body{
+    font-family: 'Tagesschrift', serif;
     overflow: hidden;
     padding: 0px;
     margin: 0px;
@@ -19,7 +23,7 @@ form{
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     box-sizing: border-box;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 14px;
@@ -42,7 +46,7 @@ form::after {
     right: -2px;
     border-radius: 14px;
     z-index: -1;
-    background: linear-gradient(270deg, white, rgb(99, 99, 99), white);
+    background: linear-gradient(270deg, white, rgb(67, 67, 67), white);
     background-size: 600%;
     animation: bordermove 4s linear infinite;
   }
@@ -62,6 +66,7 @@ form::after {
   }
 
 button{
+    margin-top: 10px;
     width: 165px;
     height: 50px;
     position: relative;
@@ -69,7 +74,16 @@ button{
     border-radius: 10px;
     color: white;
     background-color: rgb(30, 30, 30);
+    transition-duration: 0.7s;
+    cursor: pointer;
     
+    
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
 
 }
 
@@ -118,7 +132,7 @@ ul{
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 200px;
+    width: 250px;
     color: white;
     font-size: 20px;
 }
@@ -126,4 +140,22 @@ ul{
 .logo img{
     width: 50px;
     height: 50px;
+}
+
+input{
+    padding-left: 20px;
+}
+
+#home_link{
+    text-decoration: none;
+}
+
+ul a{
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 200%;
 }

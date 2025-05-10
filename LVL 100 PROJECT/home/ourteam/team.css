@@ -1,0 +1,381 @@
+body{
+    height:100vh;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+#nav{
+
+    z-index: 212121322;
+
+}
+
+.logo {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+}
+
+.logo img {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: absolute;
+    left: 400px;
+    gap: 40px;
+    top: 55px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+
+
+#login {
+    position: relative;
+    left: 350px;
+    bottom: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px white;
+    transition-duration: 0.4s;
+
+}
+
+#login a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+
+#login:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px white;
+
+
+}
+
+#login a:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px white;
+}
+
+
+#home {
+    border: 1px solid rgb(255, 255, 255);
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    
+}
+#home a{
+    text-decoration: none;
+    color: white;
+}
+#Contact {
+    border: 1px solid rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+}
+#Contact:hover{
+    box-shadow: 0px 0px 25px 0px white;
+}
+
+
+
+#home:hover {
+    box-shadow: 0px 0px 25px 0px white;
+
+
+}
+
+
+#ABOUT {
+    border: 1px solid rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    z-index: 929192012121212121212121212121;
+    
+}
+
+#ABOUT:hover {
+    box-shadow: 0px 0px 25px 0px white;
+}
+
+#SHOP {
+    border: 1px solid rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    animation: home 2.5s infinite alternate ease-in-out;
+}
+
+#SHOP:hover {
+    box-shadow: 0px 0px 25px 0px white;
+}
+
+@keyframes home {
+    0% {
+        box-shadow: 0px 0px 30px 0px white;
+    }
+
+    50% {
+        box-shadow: 0px 0px 15px 0px white;
+    }
+
+    100% {
+        box-shadow: 0px 0px 30px 0px white;
+    }
+}
+
+footer {
+    position: absolute;
+    top: 144vh;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 100%;
+    margin-left: 10px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid black;
+}
+
+
+.imgs img{
+    border: 1px solid white;
+    width: 170px;
+    height: 170px;
+    position: relative;
+    display: flex;
+    right: 140px;
+    top: 200px;
+    gap: 20px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.imgs img:hover{
+    transform: scale(1.1);
+}
+
+.imgs span{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+    right: 845px;
+    gap: 40px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs p{
+    position: relative;
+    left: -70px;
+    top: 130px;
+    z-index: 2;
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9900909090;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+    display: none;
+    animation: box 3s infinite;
+    
+}
+
+
+@keyframes box{
+    0%{
+        box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);;
+    }
+
+    50%{
+        box-shadow: 0px 0px 60px 0px rgb(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+    }
+}
+
+.p-div{
+    box-sizing: border-box;
+    background-color: black;
+    width: 390px;
+    padding-left: 20px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    box-shadow: 0px 0px 30px 0px rgb(255, 0, 0);
+}
+
+.box-text{
+    width: 700px;
+    height: 240px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.main-img{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+.line{
+    position: absolute;
+    left: 310px;
+    top: 120px
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.close:hover{
+    transform: scale(1.25);
+}
+
+.imgs p{
+    background-color: rgb(255, 255, 255);
+    width:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -100px;
+    height: 20px;
+    border-radius: 3px;
+    color: black;
+    padding: 0px 10px;
+
+}
+
+.title{
+    position: absolute;
+    left: 50%;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 30px 0px #ffc107;
+    background-color: #ffefbf;
+    color: black;
+    border-radius: 4px;
+}
+
+.info{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 13px;
+    background-color: black;
+}
+
+.abt{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.idk3{
+    box-sizing: border-box;
+    background-color: #ffc107;
+    box-shadow: 0px 0px 25px #ffc107;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-radius: 11px;
+    transition-duration: 0.2s;
+}
+
+.idk3:hover{
+    background-color: black;
+}
+
+.idk1{
+    color: #ffc107;
+}
